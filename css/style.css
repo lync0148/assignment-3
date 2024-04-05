@@ -1,6 +1,15 @@
 header {
     background-color: #000;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.wrapper {
     max-width: 940px;
-    
+    align-self: center;
+
 }
