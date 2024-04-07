@@ -1,25 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+
 header {
     background-color: #000;
     color: #fff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-
-
-
+    align-items: center;
 }
 
-.wrapper {
+#wrapper {
     max-width: 940px;
     align-self: center;
 
 }
 
-.hero {
+#hero {
     max-height: 600px;
-    background-image: url(hands-typing.jpg);
     max-width: 60%;
-    background-color: rgba(255, 0, 0, 0.5);
-
-    
+    background-image: url("hands-typing.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: #000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#about-me {
+   max-width: 940px; 
+   align-items: center;
+   display: grid;
+   grid-template-columns: 1fr, 1fr;
+   
+}
