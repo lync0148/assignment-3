@@ -13,3 +13,13 @@ header {
     align-self: center;
 
 }
+
+.hero {
+    max-height: 600px;
+    background-image: url(hands-typing.jpg);
+    max-width: 60%;
+    background-color: rgba(255, 0, 0, 0.7);
+
+    
+}
+
